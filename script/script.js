@@ -55,3 +55,13 @@ function mostrarFilmes(lista) {
         `
     })
 }
+
+mostrarFilmes(filmes)
+
+function verDetalhes(titulo) {
+    Swal.fire({
+        title: titulo,
+        text:"Mais informaçaões de Filme",
+        icon:"info"
+    })
+}
