@@ -56,5 +56,5 @@ function mostrarFilmes(lista) {
         `
 
         
-    });.
+    });
 }
