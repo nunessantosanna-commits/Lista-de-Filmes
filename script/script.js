@@ -54,3 +54,4 @@ function mostrarFilmes(lista) {
             </div>    
         `
     })
+}
