@@ -1,8 +1,8 @@
 const filmes = [
    {
-    título:"Vingadores",
+    // título:"Vingadores:Ultimato",
     Imagem:"https://media.themoviedb.org/t/p/w600_and_h900_face/9fRX8UKlIW7Lb9GqNsJVakWWFCi.jpg",
-    descrição:"Ultimato",
+    descrição:"Ação",
 
    },
     { 
