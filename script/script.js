@@ -1,13 +1,13 @@
 const filmes = [
    {
     // título:"Vingadores:Ultimato",
-    Imagem:"https://media.themoviedb.org/t/p/w600_and_h900_face/9fRX8UKlIW7Lb9GqNsJVakWWFCi.jpg",
+    imagem:"https://media.themoviedb.org/t/p/w600_and_h900_face/9fRX8UKlIW7Lb9GqNsJVakWWFCi.jpg",
     descrição:"Ação",
 
    },
     { 
         título:"Off campus:Amores improváveis",
-        Imagem:"https://media.themoviedb.org/t/p/w600_and_h900_face/iQ1WbmoC08ql4qRZkfUD2LlzNOL.jpg",
+        imagem:"https://media.themoviedb.org/t/p/w600_and_h900_face/iQ1WbmoC08ql4qRZkfUD2LlzNOL.jpg",
         descrição:"Drama"
     
    },
@@ -46,7 +46,7 @@ function mostrarFilmes(lista) {
                 <div class="card card-filme h-100">
                     <img src="${filme.imagem}" class="card-img-top">
                     <div class="card-body">
-                        <h3>${filme.titulo}</h3>
+                        <h3>${filme.título}</h3>
                         <p>${filme.descrição}</p>
                         <button class="btn btn-dark" onclick="verDetalhes('${filme.titulo}')">Ver detalhes"</button>
                     </div>
@@ -60,7 +60,7 @@ mostrarFilmes(filmes)
 
 function verDetalhes(titulo) {
     Swal.fire({
-        title: titulo,
+        title: título,
         text:"Mais informaçaões de Filme",
         icon:"info"
     })
