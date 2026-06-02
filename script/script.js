@@ -48,7 +48,7 @@ function mostrarFilmes(lista) {
                     <div class="card-body">
                         <h3>${filme.título}</h3>
                         <p>${filme.descrição}</p>
-                        <button class="btn btn-dark" onclick="verDetalhes('${filme.titulo}')">Ver detalhes"</button>
+                        <button class="btn btn-dark" onclick="verDetalhes('${filme.titulo}')">Ver detalhes</button>
                     </div>
                 </div>
             </div>    
