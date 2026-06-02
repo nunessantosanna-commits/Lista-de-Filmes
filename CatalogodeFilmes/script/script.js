@@ -24,8 +24,8 @@ const filmes = [
         },
 
         {
-            título:"//www.themoviedb.org/movie/1621-trading-places",
-            imagem:"Trocando as bolas",
+            título:"Trocando as bolas",
+            imagem:"//www.themoviedb.org/movie/1621-trading-places",
             descrição:"Comédia",
         },
 
@@ -37,13 +37,13 @@ const filmes = [
 
 ]
 
-const listaFilmes = document.getElementById ("listarFilmes")
+const listaFilmes = document.getElementById ("listaFilmes")
 function mostrarFilmes(lista) {
     listaFilmes.innerHTML = ""
     lista.forEach(filme => {
         listaFilmes.innerHTML += `
             <div class="col-md-4">
-            <div class="caed card-filme h-100">
+            <div class="card card-filme h-100">
               <img scr="${filme.imagem}" class="card-img-top">
               <div class="card-body">
               <h3>${filme.titulo}</h3>
@@ -51,10 +51,10 @@ function mostrarFilmes(lista) {
               <button class="btn btn-dark" onclick="verDetalhes('${filme.titulo}')">Ver detalhes"</button>
               </div>
               </div>
-              </div>
+              </div>`;
               
-        `
 
         
     });
 }
+mostrarFilmes(filmes);
