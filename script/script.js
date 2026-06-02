@@ -1,39 +1,39 @@
 const filmes = [
-   {
-    // título:"Vingadores:Ultimato",
-    imagem:"https://media.themoviedb.org/t/p/w600_and_h900_face/9fRX8UKlIW7Lb9GqNsJVakWWFCi.jpg",
-    descrição:"Ação",
-
-   },
-    { 
-        título:"Off campus:Amores improváveis",
-        imagem:"https://media.themoviedb.org/t/p/w600_and_h900_face/iQ1WbmoC08ql4qRZkfUD2LlzNOL.jpg",
-        descrição:"Drama"
-    
-   },
     {
-        título:"Por cima do seu cadáver",
-        imagem:"https://media.themoviedb.org/t/p/w600_and_h900_face/9ghTSDRXDYZagU9hOf285EjOmgD.jpg",
-        descrição:"Terror",
-        },
+        // título:"Vingadores:Ultimato",
+        imagem: "https://media.themoviedb.org/t/p/w600_and_h900_face/9fRX8UKlIW7Lb9GqNsJVakWWFCi.jpg",
+        descrição: "Ação",
 
-        {
-            título:"Como mágica",
-            imagem:"https://media.themoviedb.org/t/p/w600_and_h900_face/7FBnCkYzHlVHEtuzTEiGgFhs8EQ.jpg",
-            descrição:"Fantasia",
-        },
+    },
+    {
+        título: "Off campus:Amores improváveis",
+        imagem: "https://media.themoviedb.org/t/p/w600_and_h900_face/iQ1WbmoC08ql4qRZkfUD2LlzNOL.jpg",
+        descrição: "Drama"
 
-        {
-            título:"Trocando as bolas",
-            imagem:"https://media.themoviedb.org/t/p/w600_and_h900_face/tYyHmUzo6GT7qjG7OWqo0zsXcoJ.jpg",
-            descrição:"Comédia",
-        },
+    },
+    {
+        título: "Por cima do seu cadáver",
+        imagem: "https://media.themoviedb.org/t/p/w600_and_h900_face/9ghTSDRXDYZagU9hOf285EjOmgD.jpg",
+        descrição: "Terror",
+    },
 
-        {
-        título:"Spider-Noir",
-        imagem:"https://media.themoviedb.org/t/p/w600_and_h900_face/rfrzXSaiuvRMLo8PRQds0TfFrZC.jpg",
-        descrição:"Drama e Mistério",
-        }
+    {
+        título: "Como mágica",
+        imagem: "https://media.themoviedb.org/t/p/w600_and_h900_face/7FBnCkYzHlVHEtuzTEiGgFhs8EQ.jpg",
+        descrição: "Fantasia",
+    },
+
+    {
+        título: "Trocando as bolas",
+        imagem: "https://media.themoviedb.org/t/p/w600_and_h900_face/tYyHmUzo6GT7qjG7OWqo0zsXcoJ.jpg",
+        descrição: "Comédia",
+    },
+
+    {
+        título: "Spider-Noir",
+        imagem: "https://media.themoviedb.org/t/p/w600_and_h900_face/rfrzXSaiuvRMLo8PRQds0TfFrZC.jpg",
+        descrição: "Drama e Mistério",
+    }
 
 ]
 
@@ -61,7 +61,7 @@ mostrarFilmes(filmes)
 function verDetalhes(titulo) {
     Swal.fire({
         title: título,
-        text:"Mais informaçaões de Filme",
-        icon:"info"
+        text: "Mais informaçaões de Filme",
+        icon: "info"
     })
 }
