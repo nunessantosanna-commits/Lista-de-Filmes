@@ -25,13 +25,13 @@ const filmes = [
 
         {
             título:"Trocando as bolas",
-            imagem:"//www.themoviedb.org/movie/1621-trading-places",
+            imagem:"https://www.themoviedb.org/movie/1621-trading-places?language=pt-BR",
             descrição:"Comédia",
         },
 
         {
         título:"Spider-Noir",
-        imagem:"//www.themoviedb.org/tv/220102-spider-noir",
+        imagem:"https://www.themoviedb.org/tv/220102-spider-noir?language=pt-BR",
         descrição:"Drama e Mistério",
         }
 
@@ -56,5 +56,5 @@ function mostrarFilmes(lista) {
 
         
     });
+
 }
-mostrarFilmes(filmes);
