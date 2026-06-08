@@ -39,9 +39,9 @@ const dorama = [
 
 const listaDorama = document.getElementById("listaDorama");
 function mostrarDorama(lista) {
-    listaFilmes.innerHTML = ""
+    listaDorama.innerHTML = ""
     lista.forEach(dorama => {
-        listaFilmes.innerHTML += `
+        listaDorama.innerHTML += `
             <div class="col-md-4">
                 <div class="card card-dorama h-100">
                     <img src="${dorama.imagem}" class="card-img-top">
@@ -56,7 +56,7 @@ function mostrarDorama(lista) {
     })
 }
 
-mostrarDorama(dorama)
+mostrarDorama(doramas)
 
 function verDetalhes(titulo) {
     Swal.fire({
